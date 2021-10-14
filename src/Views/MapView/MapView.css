@@ -1,0 +1,26 @@
+.spinner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leatlef-container {
+  /*
+    vw: ancho total de la pantalla del dispositivo
+    vh: altura total de la pantalla del dispositivo
+    */
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.filter {
+  left: 12px;
+  top: 29%;
+  position: absolute;
+  float: left;
+  z-index: 2;
+}
+
